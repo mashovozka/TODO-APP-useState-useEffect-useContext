@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TODO-APP-useState-useEffect-useContext/static/css/main.d1b05096.chunk.css",
+    "main.js": "/TODO-APP-useState-useEffect-useContext/static/js/main.418ee391.chunk.js",
+    "main.js.map": "/TODO-APP-useState-useEffect-useContext/static/js/main.418ee391.chunk.js.map",
+    "runtime-main.js": "/TODO-APP-useState-useEffect-useContext/static/js/runtime-main.119b0351.js",
+    "runtime-main.js.map": "/TODO-APP-useState-useEffect-useContext/static/js/runtime-main.119b0351.js.map",
+    "static/js/2.9b35c58a.chunk.js": "/TODO-APP-useState-useEffect-useContext/static/js/2.9b35c58a.chunk.js",
+    "static/js/2.9b35c58a.chunk.js.map": "/TODO-APP-useState-useEffect-useContext/static/js/2.9b35c58a.chunk.js.map",
+    "index.html": "/TODO-APP-useState-useEffect-useContext/index.html",
+    "precache-manifest.7c9409ba2c9c0b12f2fa56b6dcbb1388.js": "/TODO-APP-useState-useEffect-useContext/precache-manifest.7c9409ba2c9c0b12f2fa56b6dcbb1388.js",
+    "service-worker.js": "/TODO-APP-useState-useEffect-useContext/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/TODO-APP-useState-useEffect-useContext/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9b35c58a.chunk.js.LICENSE": "/TODO-APP-useState-useEffect-useContext/static/js/2.9b35c58a.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.119b0351.js",
+    "static/js/2.9b35c58a.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.418ee391.chunk.js"
+  ]
+}
