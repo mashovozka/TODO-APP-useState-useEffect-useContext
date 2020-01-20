@@ -7,16 +7,9 @@ import Paper from "@material-ui/core/Paper"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
 import Grid from "@material-ui/core/Grid"
+import {TodosProvider} from "./context/todos.context"
 
 export default function TodoApp() {
-    const initialTodos = JSON.parse(window.localStorage.getItem("todos") || "[]");
-    const {todos, addTodo, removeTodo, toggleTodo, editTodo} = useTodoState(initialTodos)
-    
-
-    useEffect(() => {
-        window.localStorage.setItem("todos", JSON.stringify(todos))
-    }, [todos])
-
     return (
        <Paper
        style={{
@@ -36,14 +29,10 @@ export default function TodoApp() {
            </AppBar>
            <Grid container justify='center' style={{marginTop: "1rem"}}> 
            <Grid item xs={11} md={8} lg={4}>
-                <TodoForm addTodo={addTodo} />
-                <TodoList 
-                addTodo={addTodo}
-                todos={todos} 
-                removeTodo={removeTodo}
-                toggleTodo={toggleTodo}
-                editTodo={editTodo}
-                />
+              <TodosProvider>
+                <TodoForm/>
+                <TodoList/>
+              </TodosProvider>  
                 </Grid>
            </Grid>
        </Paper>
